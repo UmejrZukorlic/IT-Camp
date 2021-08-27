@@ -1,0 +1,24 @@
+div{
+    border-radius: 20px; border: grey 2px solid;
+    background-color: rgb(71, 66, 66);
+    width: 400px;
+    height: 460px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+p{
+    color: rgba(173, 179, 185, 0.63);
+}
+h1{
+    color: white;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+img{
+    border-radius: 15px;
+    width: 380px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
