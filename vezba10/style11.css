@@ -1,0 +1,30 @@
+.header{
+    width: 800px;
+    height: 150px;
+    border: black 1px solid;
+    position: relative;
+}
+.logo{
+    width: 250px;
+    height: 50px;
+    border: black 1px solid;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.top_nav{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    border: black 1px solid;
+}
+.menu{
+    width: 350px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    border: black 1px solid;
+}
