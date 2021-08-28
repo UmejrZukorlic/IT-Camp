@@ -1,0 +1,36 @@
+.container{
+    display: inline-block;
+    width: 100px;
+    height: 500px;
+    border: black 1px solid;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.container2{
+    display: inline-block;
+    width: 100px;
+    height: 500px;
+    border: black 1px solid;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+.container3{
+    display: inline-block;
+    width: 100px;
+    height: 500px;
+    border: black 1px solid;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+.container4{
+    display: inline-block;
+    width: 100px;
+    height: 500px;
+    border: black 1px solid;
+    position: absolute;
+    top: 10px;
+    left: 370px;
+}
