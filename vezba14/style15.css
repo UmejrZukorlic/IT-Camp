@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background-color: red;
+}
+.jedan{
+    width: 1100px;
+    height: 1100px;
+    background-color: hotpink;
+    border: 1px white solid;
+}
+p{
+    font-size: xx-large;
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+    }
+    .jedan{
+        width: 300px;
+        height: 500px;
+        background-color: yellow;
+        border: 1px black solid;
+    }
+    p{
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body{
+        background-color: green;
+    }
+}
