@@ -1,0 +1,38 @@
+/* Define grid */
+.container{
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: 
+    "header header header header"
+    "main  main empty sidebar"
+    "footer footer footer footer";
+}
+/* Define grid areas */
+.grid-1{
+    grid-area: header;
+    background-color: orange;
+    text-align: center;
+}
+.grid-2{
+    grid-area: main;
+    background-color: blue;
+    text-align: center;
+}
+.grid-5{
+    grid-area: empty;
+    text-align: center;
+}
+.grid-3{
+    grid-area: sidebar;
+    background-color: red;
+    text-align: center;
+}
+.grid-4{
+    grid-area: footer;
+    background-color: yellow;
+    text-align: center;
+}
