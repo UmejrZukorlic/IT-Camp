@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient( 
+        115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url('why_us.jpg');
+    background-size: cover;
+}
+header{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+header h1{
+    text-align: center;
+
+}
+header h3{
+    text-align: center;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.844);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.container label{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container input{
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.container select{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    color: gray;
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+}
+#p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+textarea{
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: green;
+    border: 0px green solid;
+    color: white;
+    border-radius: 4px;
+}
+@media screen and (max-width:1000px){
+    .container{
+        width: 70%;
+    }    
+}
+@media screen and (max-width:700px){
+    body{
+        margin: 0px;
+    }
+    .container{
+        width: 90%;
+    }
+}
