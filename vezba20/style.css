@@ -1,0 +1,308 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navigation{
+    background-color: rgb(24, 24, 28);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+}
+.left_nav{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_nav a{
+    text-decoration: none;
+    color: white;
+    font-family: "Pattaya", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 2.4rem;
+}
+.right_nav{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right_nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    font-size: 1.7rem;
+
+}
+#home{
+    background-image: linear-gradient( rgb(0, 0, 0, 0.5), transparent ),url('pexels-stephan-seeber-1054218.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 3px 3px 10px black;
+    color: white;
+}
+#home h2{
+    font-size: 40px;
+    font-size: 4rem;
+}
+#home h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 3rem;
+}
+#home button{
+    color: white;
+    border: 0px black solid;
+    padding: 1rem 3rem;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+    background-color: #4c6e97;
+    transition: background-color 0.5s ease-in-out;
+}
+#home button:hover{
+    background-color: rgb(37, 45, 72);
+}
+#location{
+    background-image: url('pexels-pixabay-302769.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.location_text{
+    width: 90%;
+    margin: auto;
+    text-shadow: 3px 3px 10px rgb(61, 61, 61);
+}
+.location_text h1{
+    text-decoration: underline;
+    font-size: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.location_text h2{
+    width: 60%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.location_text .down{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0%;
+    top: 15%;
+    opacity: 0.6;
+    animation: mymove 3.5s infinite alternate ease-in-out;
+}
+.location_text .up{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    animation: mymove 3s infinite alternate ease-in-out;
+}
+@keyframes mymove{
+    0%{
+        transform: translate(10%,-10%);
+    }
+    100%{
+        transform: translate(0%,0%);
+    }
+}
+#benefits{
+    width: 100%;
+    height: 100vh;
+    background-image: url('pexels-daria-shevtsova-1680140.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#benefits .up{
+    width: 70%;
+    margin: 10% auto 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#benefits .up h1{
+    color:rgb(71, 71, 170);
+    text-shadow: black 3px 3px 10px;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+#benefits .up h3{
+    color: rgb(71, 71, 170);
+    text-shadow: black 3px 3px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+#benefits .down{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#benefits .down .card{
+    width: 25%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: black 3px 3px 10px;
+}
+#benefits .down .card .hoverable{
+    width: 100%;
+    height: 35%;
+    background-color: rgb(97, 82, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s ease-in-out;
+}
+#benefits .down .card .hoverable i{
+    font-size: 2.2rem;
+    color: white;
+}
+#benefits .down .card .hoverable:hover{
+    background-color: rgb(23, 23, 49);
+}
+
+#benefits .down .card .no_hoverable{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+#benefits .down .card .no_hoverable h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    padding: 5px;
+}
+#benefits .down .card .no_hoverable p{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 4%;
+    font-family: "Poppins", sans-serif;
+}
+#contact{
+    min-height: 90vh;
+    background-image: url('pexels-travis-rupert-1032650.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact .container{
+    background: rgba(19, 28, 39, 0.7);
+    width: 50%;
+    height: 70vh;
+    color: white;
+    border-radius: 20px;
+}
+#contact .container header{
+    text-align: center;
+    padding: 3rem;
+}
+#contact .container header h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+}
+#contact .container .name{
+    text-align: center;
+    padding: 3rem;
+}
+#contact .container .email{
+    text-align: center;
+    padding: 2rem;
+}
+#contact .container label{
+    margin: 0rem 3rem;
+    font-size: 1.7rem;
+}
+#contact .container input{
+    font-size: 2rem;
+}
+#contact .container button{
+    width: 100%;
+    height: 15%;
+    border: 0px white solid;
+    border-radius: 0px 0px 15px 15px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(97, 82, 192);
+    transition: 0.7s ease-in-out;
+}
+#contact .container button:hover{
+    background-color: rgb(23, 23, 49);
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #131c27;
+    color: white;
+}
+footer .firma{
+    min-height: 10vh;
+    padding: 2rem;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .firma h5{
+    flex: 1 1 36rem;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+}
+footer .firma ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 35rem;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .firma ul li{
+    font-size: 2rem;
+}
