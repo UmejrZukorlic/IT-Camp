@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav_bar{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+i{
+    font-size: 2rem;
+    padding: 1rem;
+}
+ul{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    left: 0px;
+    background-color: black;
+    width: 100%;
+    padding-left: 1rem;
+}
+i:hover ul{
+    display: block;
+}
