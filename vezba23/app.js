@@ -151,8 +151,17 @@
 // for (i = 0; i < var1.length; i++) {
 //     console.log(var1[i]);
 // }
-var1 = parseInt(prompt("Unesi broj ponavljanja"))
-var2 = prompt("Unesi ime")
-for (i = 0; i < var1; i++) {
-    console.log(var2);
-}
+// var1 = parseInt(prompt("Unesi broj ponavljanja"))
+// var2 = prompt("Unesi ime")
+// for (i = 0; i < var1; i++) {
+//     console.log(var2);
+// }
+// unos = parseInt(prompt("Unesi pocetni broj"))
+// unos2 = parseInt(prompt("Unesi zavrsni broj"))
+// for (i = unos; i <= unos2; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i, "paran");
+//     } else {
+//         console.log(i, "neparan");
+//     }
+// }
