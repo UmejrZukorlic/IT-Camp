@@ -1,0 +1,50 @@
+body {
+    background-image: url('pexels-zaksheuskaya-1568607.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#add {
+    width: 50%;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#counter {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter #broj {
+    width: 30%;
+    border: 2px rgb(35, 34, 97) solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.658);
+}
+
+#counter #broj h1 {
+    font-family: monospace;
+}
+
+#remove {
+    width: 50%;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    border-color: blue;
+}
