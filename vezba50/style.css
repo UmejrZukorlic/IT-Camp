@@ -1,0 +1,13 @@
+#main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boja {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 1px red solid;
+}
