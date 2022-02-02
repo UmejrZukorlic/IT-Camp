@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+form {
+    padding: 10rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input,
+button {
+    margin: .5rem;
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px grey solid;
+}
+
+button {
+    border: 0px blue solid;
+    background-color: blue;
+    color: white;
+}
+
+#forRegister {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: .7rem;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
