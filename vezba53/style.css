@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(50, 50, 187);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div {
+    width: 30%;
+    height: fit-content;
+    border: 2px red solid;
+}
