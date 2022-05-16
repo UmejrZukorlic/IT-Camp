@@ -1,0 +1,71 @@
+body {
+    background-image: url('./banner.jpg');
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.keys {
+    width: 3rem;
+    height: 4rem;
+    background-color: #291f1f7c;
+    color: #ffff00;
+    font-size: 2rem;
+    text-align: center;
+    position: absolute;
+    border: #d3d33b solid 2px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+}
+
+.keys:nth-child(1) {
+    top: 16%;
+    left: 45%;
+}
+
+.keys:nth-child(2) {
+    top: 16%;
+    left: 70%;
+}
+
+.keys:nth-child(3) {
+    top: 20%;
+    left: 80%;
+}
+
+.keys:nth-child(4) {
+    top: 40%;
+    left: 40%;
+}
+
+.keys:nth-child(5) {
+    top: 35%;
+    left: 50%;
+}
+
+.keys:nth-child(6) {
+    top: 50%;
+    left: 50%;
+}
+
+.keys:nth-child(7) {
+    top: 35%;
+    left: 60%;
+}
+
+.keys:nth-child(8) {
+    top: 47%;
+    left: 67%;
+}
+
+.keys:nth-child(9) {
+    top: 60%;
+    left: 75%;
+}
+
+.playing {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px #ffff00;
+}
