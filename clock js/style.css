@@ -1,0 +1,44 @@
+body {
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#646de6, #56b4e0);
+}
+
+.clock {
+    width: 400px;
+    height: 400px;
+    border: 15px whitesmoke solid;
+    border-radius: 50%;
+    position: relative;
+}
+
+.arrow {
+    width: 40%;
+    border: 3px black solid;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.09s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.minarrow {
+    width: 35%;
+    left: 15%;
+    border-color: greenyellow;
+}
+
+.hourarrow {
+    width: 30%;
+    left: 20%;
+    border-color: darkorange;
+}
+
+.secarrow {
+    border-color: aliceblue;
+}
