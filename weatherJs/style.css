@@ -1,0 +1,15 @@
+body {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+header {
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+}
+
+#headerSpan {
+    color: aquamarine;
+}
